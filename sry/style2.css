@@ -1,0 +1,149 @@
+html{
+    font-size: 16px;
+}
+h1{font-size: 2.5rem;}
+h2{font-size:  2rem;}
+h3{font-size: 1.75rem;}
+h4{font-size: 1.5rem;}
+h5{font-size: 1.25rem;}
+h6{font-size: 1rem;}
+#logo2{
+    height: 30px;
+    background-color: blue;
+    width: 30px;
+    padding: 10;
+    float: left;
+}
+#horizons{
+    margin-top: 0px;
+    padding-bottom: 0px;
+    vertical-align: middle;
+    font-size: 30pxS;
+}
+#logo{
+    height: 350px;
+    width: 100%;
+    margin: 5px 0px 0px 0px;
+    padding: 0%;
+    object-fit: cover;
+}
+#center{
+    text-align: center;
+    color: blue;
+    margin: 0%;
+    padding: 0%;
+    font-size: 48px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+#job{
+    text-align: center;
+    color: blue;
+    font-style: normal;
+    font-size: 30px;
+    text-decoration: none;
+}
+#general{
+    
+display: flex;
+margin-top: 0%;
+margin-bottom: 0px;
+
+}
+#content{
+    width: 50%;
+    font-size: 28px; 
+    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+#picture{
+    width: 40%;
+    min-width: auto;
+    width: auto 900px;
+    height: auto; 
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top: 43px;
+}
+#social{
+margin-top: 32px;
+text-align: center;
+padding: 10px;
+background-color: aqua;
+}
+#media{
+    list-style: none;
+}
+#media li{
+    display: inline;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+.apply{
+    float: right;
+    margin-right: 200px;
+    font-size: 20px;
+}
+.location{
+    margin-top: 2px;
+    color: gray;
+    font-size: 15px;
+}
+.job-role{
+    margin-bottom: 2px;
+    font-size: 23px;
+}
+.copyright{
+    color: gray;
+    margin-top: 30px;
+}
+#jop{
+    margin-top: 15px;
+}
+#table{
+    width: 100%;
+ border: 1px solide gray;
+ border-collapse: collapse;
+}
+.header-table th {
+    border: 1px solid gray;
+    background-color: rgb(202, 220, 223);
+    padding: 6px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.data-raw td :nth-child(even) {
+    font-size: 1.25rem;
+    padding: 15px;
+    color:rgb(202, 6, 6);
+    background-color: rgb(98, 223, 240);
+}
+.number input{
+    margin: 10px;
+}
+#apply input, select {
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: robote;
+    border: 4px solid gray;
+}
+#apply label{
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: robote;
+}
+#coverlatter{
+    width: 90%;
+}
+#submit{
+    background-color: blue;
+    border: 2px solid blue;
+    
+}
